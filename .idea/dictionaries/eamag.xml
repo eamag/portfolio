@@ -9,10 +9,13 @@
       <w>iloc</w>
       <w>importances</w>
       <w>ipnb</w>
+      <w>lightgbm</w>
+      <w>logreg</w>
       <w>pred</w>
       <w>rmse</w>
       <w>sqrt</w>
       <w>xyqdbho</w>
+      <w>yandex</w>
     </words>
   </dictionary>
 </component>
