@@ -3,6 +3,8 @@ import numpy as np
 from sklearn.model_selection import train_test_split, GridSearchCV, KFold, cross_val_score
 from pylightgbm.models import GBMClassifier
 from sklearn.metrics import f1_score
+import matplotlib.pyplot as plt
+plt.style.use('ggplot')
 
 
 def load_d():
@@ -38,11 +40,13 @@ def feat_extract(df):
     return new_df, index
 
 
-def lgbm(X, Y, verbose=True, predict=False, x_test=None, kf=True):
+def lgbm(X, Y, verbose=True, predict=False, x_test=None, kf=True, feat_imp=True):
+    feature_list = X.columns
+    feature_dict = dict(zip(range(len(feature_list)), feature_list))
     X = X.values
 
     exec = "~/LightGBM/lightgbm"  # full path to lightgbm executable (on Windows include .exe)
-    clf = GBMClassifier(num_iterations=200, exec_path=exec, learning_rate=0.2,min_data_in_leaf=140, verbose=0,
+    clf = GBMClassifier(num_iterations=200, exec_path=exec, learning_rate=0.2, min_data_in_leaf=140, verbose=0,
                         max_bin=255)
 
     if kf:
@@ -59,15 +63,33 @@ def lgbm(X, Y, verbose=True, predict=False, x_test=None, kf=True):
     if predict:
         clf.fit(X, Y)
         print('\nFinal result for train set is ', f1_score(Y, clf.predict(X)))
+        if feat_imp:
+            df_fi = pd.DataFrame(list(clf.feature_importance().items()), columns=['feature', 'importance'])
+            df_fi = df_fi.replace({"feature": feature_dict}).sort_values('importance', ascending=False)
+            print(df_fi)
+            plt.figure()
+            df_fi.head(10).plot(kind='barh',
+                                x='feature',
+                                y='importance',
+                                sort_columns=False,
+                                legend=False,
+                                figsize=(10, 6),
+                                facecolor='#1DE9B6',
+                                edgecolor='white')
+
+            plt.title('XGBoost Feature Importance')
+            plt.xlabel('relative importance')
+            plt.show()
         return clf.predict(x_test.values)
 
 
 def create_submission(X, name):
-    np.savetxt('%s.csv'%name, X, delimiter=',', fmt="%d", header='user_id,passed', comments='')
+    np.savetxt('%s.csv' % name, X, delimiter=',', fmt="%d", header='user_id,passed', comments='')
+
 
 if __name__ == '__main__':
     train, ind_tr, test, ind_test, Y = load_d()
     result = lgbm(train, Y, verbose=True, predict=True, x_test=test, kf=False)
     submit = np.concatenate((np.asarray(ind_test, dtype=int).reshape(-1, 1),
                              np.asarray(result, dtype=int).reshape(-1, 1)), axis=1)
-    create_submission(submit, 'lgbm')
+    # create_submission(submit, 'lgbm')
