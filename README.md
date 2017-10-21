@@ -6,4 +6,6 @@ By date added:
 5. tigli: semantic analysis for text fraud detection
 6. OMM: home task for course "methods of math modeling"
 7. vk: vk bot for "repost and win"
-8. doc+: test task for doc+ interview 
+8. data-science-journey-2017: nlp with various tasks
+9. rate_hack_app: backend for hackathon app (voting for styles)
+10. deptrans: test task, sql and ml prediction
