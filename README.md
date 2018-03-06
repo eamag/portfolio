@@ -9,3 +9,4 @@ By date added:
 8. data-science-journey-2017: nlp with various tasks
 9. rate_hack_app: backend for hackathon app (voting for styles)
 10. deptrans: test task, sql and ml prediction
+11. bostonGene: lgb for gene expression prediction, small feat. eng., 5 hours from zero to somewhat
