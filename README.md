@@ -10,3 +10,4 @@ By date added:
 9. rate_hack_app: backend for hackathon app (voting for styles)
 10. deptrans: test task, sql and ml prediction
 11. bostonGene: lgb for gene expression prediction, small feat. eng., 5 hours from zero to somewhat
+12. idao.world: recommendation system and time-series regressions with lightgbm
