@@ -4,6 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/vk/vk.py" line="78" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="ca2071b5-b367-4692-b2ce-95db6a182599" name="Default" comment="Added 4 points">
       <change afterPath="$PROJECT_DIR$/IDAO/14_var_number_of_classes.ipynb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/IDAO/Base.ipynb" afterDir="false" />
@@ -64,6 +65,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+=======
+    <list default="true" id="ca2071b5-b367-4692-b2ce-95db6a182599" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <ignored path="small_stuff.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,16 +99,32 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
+<<<<<<< Updated upstream
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
               <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
             </state>
           </provider>
+=======
+          <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> Stashed changes
         </entry>
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data-science-journey-2017/README.md">
           <provider selected="true" editor-type-id="text-editor" />
+<<<<<<< Updated upstream
+=======
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            </state>
+          </provider>
+>>>>>>> Stashed changes
         </entry>
       </file>
     </leaf>
@@ -186,10 +207,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -421,7 +442,11 @@
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration default="true" type="tests" factoryName="Doctests">
+=======
+    <configuration default="true" type="tests" factoryName="Nosetests">
+>>>>>>> Stashed changes
       <module name="short_staff" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -431,6 +456,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -449,6 +475,8 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+=======
+>>>>>>> Stashed changes
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
@@ -539,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505381410718</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="BostonGene test task">
+      <created>1520361078881</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1520361078881</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -557,24 +592,38 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5042644" side_tool="true" weight="0.32903227" />
+=======
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5042644" side_tool="true" weight="0.32943678" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4936034" weight="0.32731137" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
+<<<<<<< Updated upstream
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3094984" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3054371" />
+      <window_info anchor="bottom" id="Statistic" order="11" sideWeight="0.49573562" weight="0.32943678" />
+>>>>>>> Stashed changes
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Kite Autosearch" order="3" />
+<<<<<<< Updated upstream
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -585,6 +634,18 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+=======
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+>>>>>>> Stashed changes
       <window_info anchor="right" id="Data View" order="3" />
     </layout>
     <layout-to-restore>
@@ -622,6 +683,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/Tigli" />
     </ignored-roots>
@@ -630,7 +693,11 @@
     <MESSAGE value="Scoringstudio case, notebook changes" />
     <MESSAGE value="In process:&#10;&#10;deptrans, sdsj-17&#10;&#10;Added:&#10;&#10;rate_hack" />
     <MESSAGE value="Added 4 points" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 4 points" />
+    <MESSAGE value="BostonGene test task" />
+    <option name="LAST_COMMIT_MESSAGE" value="BostonGene test task" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -639,7 +706,13 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gotohack/blitz/explore.ipynb" />
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/.gitignore" />
+=======
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/vk/vk.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -813,14 +886,28 @@
     <entry file="file://$PROJECT_DIR$/test.sql" />
     <entry file="file://$PROJECT_DIR$/data-science-journey-2017/README.md">
       <provider selected="true" editor-type-id="text-editor" />
+<<<<<<< Updated upstream
+=======
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+>>>>>>> Stashed changes
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/README.md">
+<<<<<<< Updated upstream
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
         </state>
       </provider>
+=======
+      <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> Stashed changes
     </entry>
   </component>
 </project>
